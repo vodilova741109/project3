@@ -1,0 +1,259 @@
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+dl, ol, ul {
+    padding-left: 1.3rem;
+}
+.gallery-columns-1 .gallery-item, .gallery-columns-2 .gallery-item, .gallery-columns-3 .gallery-item, .gallery-columns-4 .gallery-item {
+    float: left;
+}
+.site-header .navbar-inner .menu-button {
+    margin-right: 8px;
+}
+.site-header .navbar-inner .search-button {
+    margin-left: 8px;
+}
+.site-header .navbar-inner .main-menu li ul {
+    text-align: right;
+    right: 0;
+}
+.site-header .navbar-inner .main-menu li ul ul {
+    right: 100%;
+    border-right: 1px solid #232323;
+}
+.site-header .fixed-nav-wrap {
+    left: 0;
+}
+.mobile-menu {
+    right: -260px;
+    transition: right 0.3s;
+    text-align: right;
+}
+.mobile-menu ul>li .submenu-toggle-button {
+    left: 0;
+    right: auto;
+}
+.mobile-menu ul>li.menu-item-has-children ul {
+    margin-right: 8px;
+    margin-left: 0px;
+}
+.mobile-menu ul>li.menu-item-has-children ul:before {
+    right: 24px;
+    left: auto;
+}
+.mobile-menu ul>li a {
+    padding: 0px 32px 0px 16px;
+}
+.backdrop {
+    left: 0;
+}
+.backdrop .menu-close {
+    right: 0px;
+}
+.mobile-menu-opened .mobile-menu {
+    right: 0px;
+}
+.mobile-menu-opened .backdrop .menu-close {
+    right: 275px;
+}
+.pagination-wrap a.newer-posts svg {
+    margin-right: 4px;
+    margin-left: 0;
+}
+.pagination-wrap a.older-posts svg {
+    margin-left: 4px;
+    margin-right: 0px;
+}
+.featured-posts-section .row .post-wrap {
+    float: right;
+    text-align: right;
+}
+.featured-posts-section .small-post .featured-image-wrap {
+    float: right;
+}
+.featured-posts-section .small-post .content-wrap {
+    margin-right: 206px;
+    margin-left: 0;
+}
+.featured-posts-section .small-post .content-wrap.no-image {
+    margin-right: 0;
+    margin-left: 0;
+}
+.post-group .post-group-title {
+    text-align: right;
+}
+.latest-post-section .large-post .featured-image-wrap {
+    width: calc(50% - 15px);
+    float: right;
+}
+.latest-post-section .large-post .content-wrap {
+    margin-right: calc(50% + 5px);
+    margin-left: 0;
+    text-align: right;
+}
+.latest-post-section .large-post .content-wrap.no-image {
+    margin-right: 0;
+    margin-left: 0;
+}
+.latest-post-section .small-post .featured-image-wrap {
+    float: right;
+}
+.latest-post-section .small-post .content-wrap {
+    margin-right: 124px;
+    margin-left: 0px;
+    text-align: right;
+}
+.column-post-section .large-post .featured-image-wrap .overlay {
+    text-align: right;
+}
+.latest-post-section .small-post .content-wrap.no-image {
+    margin-right: 0;
+    margin-left: 0;
+}
+.column-post-section .small-post .featured-image-wrap {
+    float: right;
+    overflow: hidden;
+}
+.column-post-section .small-post .content-wrap {
+    margin-right: 124px;
+    margin-left: 0;
+    text-align: right;
+}
+.column-post-section .small-post .content-wrap.no-image {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row-post-section .post-wrap {
+    text-align: right;
+}
+.single-post-wrap .post-content {
+    text-align: right;
+}
+.single-post-wrap .post-content .tag-wrap a {
+    margin-left: 8px;
+}
+.prev-next-wrap .post-wrap .featured-image-wrap {
+    float: right;
+}
+@media (min-width: 768px) {
+    .offset-md-1 {
+        margin-right: 8.333333%;
+    }
+}
+.prev-next-wrap .post-wrap .content-wrap {
+    margin-right: 206px;
+    margin-left: 0px;
+    text-align: right;
+}
+.prev-next-wrap .post-wrap .content-wrap.no-image {
+    margin-right: 0;
+    margin-left: 0;
+}
+.related-post-wrap .section-title, .comment-container .section-title {
+    text-align: right;
+}
+.related-post-wrap .post-wrap .featured-image-wrap {
+    float: right;
+}
+.related-post-wrap .post-wrap .content-wrap {
+    margin-right: 124px;
+    margin-left: 0;
+    text-align: right;
+}
+.related-post-wrap .post-wrap .content-wrap.no-image {
+    margin-right: 0;
+    margin-left: 0;
+}
+/*====================================================
+      13. comment
+====================================================*/
+.comment-container {
+    text-align: right;
+}
+.comment-container ol li header .author-avater-link {
+    float: right;
+}
+.comment-container ol li header .comment-details {
+    margin-right: 66px;
+}
+.comment-container ol li .bypostauthor .comment-details .commenter-name span {
+    margin-right: 8px;
+}
+.comment-container ol li .comment-body {
+    margin-right: 66px;
+}
+.comment-container ol li .comment-reply-link {
+    margin-right: 66px;
+}
+.comment-container ol li .comment-edit-link {
+    margin-right: 8px;
+}
+.comment-container ol .children {
+    padding-right: 50px;
+}
+.comment-container .comment-respond .comment-reply-title small {
+    float: left;
+}
+.site-footer .widget {
+    text-align: right;
+}
+.site-footer .widget ul li a .post-count {
+    left: 0;
+    right: auto;
+}
+.site-footer .widget.widget_categories ul.children {
+    margin-right: 16px;
+    margin-left: 0;
+}
+.site-footer .widget .navigation ul {
+    padding: 0;
+    margin: 0;
+}
+.site-footer .widget .navigation ul li {
+    margin: 0px 20px 10px 0px;
+}
+.site-footer .widget .social-links li {
+    margin-left: 20px;
+}
+.site-footer .copyright-wrap .custom-links ul li a {
+    margin-right: 20px;
+    margin-left: 0;
+}
+.search-popup .close-button {
+    left: 16px;
+    top: 16px;
+}
+.search-popup .popup-inner {
+    text-align: right;
+}
+.search-popup .popup-inner form input {
+    padding-right: 0px;
+}
+.search-popup .loader .spinner {
+    margin-left: 8px;
+}
+.cover-wrap .cover-inner .meta-info li {
+    margin: 0px 0px 0px 10px;
+}
+.cover-wrap .cover-inner .meta-info li.location svg {
+    margin-left: 8px;
+    margin-right: 0;
+}
+@media screen and (max-width: 767px) {
+    .latest-post-section .large-post .content-wrap {
+        margin-right: 0;
+    }
+    .latest-post-section .large-post .featured-image-wrap {
+        float: none;
+        width: 100%;
+    }
+}
+@media (max-width: 575px) {
+    .featured-posts-section .small-post .content-wrap {
+        margin-right: 124px;
+    }
+    .prev-next-wrap .post-wrap .content-wrap {
+        margin-right: 124px;
+    }
+}
